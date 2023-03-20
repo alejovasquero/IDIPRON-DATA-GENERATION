@@ -35,7 +35,7 @@ def generate_data(rows, file=None):
     ]
 
     if file is not None:
-        with open(file + '.csv', 'w') as csvfile:
+        with open(file + '.csv', 'w', newline="") as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=names_list)
             writer.writeheader()
             writer.writerows(data_dict)

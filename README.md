@@ -59,7 +59,7 @@ Run the --file option to do:
 
 * ```python main.py --rows 100 --file ./data```
 
-![img.png](img/run_image.png)
+![img.png](img/csv_generation.png)
 
 ### Coverage report
 
