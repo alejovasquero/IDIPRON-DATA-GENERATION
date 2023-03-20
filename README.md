@@ -36,11 +36,34 @@ The list of data generated is:
   * Run ```python -m venv myenv```
   * Run ```.\myenv\Scripts\activate```
 * To run tests ```python -m unittest discover```
-* To run the app ```python app.py```
+
+### Usage
+
+Help command:
+* ```python main.py --help```
+
+Output:
+
+![img.png](img/help_command.png)
+
+Generate 100 rows:
+* ```python main.py --rows 100```
+
+![img.png](img/run_image.png)
+
+### CSV file generation
+
+This program supports the csv generation of the data.
+
+Run the --file option to do:
+
+* ```python main.py --rows 100 --file ./data```
+
+![img.png](img/run_image.png)
 
 ### Coverage report
 
-![](../../img/coverage_report.PNG)
+![](img/coverage_report.PNG)
 
 To replicate the coverage report, run:
 * Run the tests with coverage ```python -m coverage run -m unittest discover```
